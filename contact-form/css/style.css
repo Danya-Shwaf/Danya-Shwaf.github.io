@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+* {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+      font-family: "Karla" ,Arial, Helvetica, sans-serif;
+      box-sizing: border-box;
+}
+body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #91DDCF;
+      padding: 16px;
+}
+.container {
+      padding: 20px;
+      background-color: #fdfdfd;
+      border-radius: 10px; 
+      width: 400px;
+      
+}
+.container h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      margin-top: 30px;
+
+}
+.container-field {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      gap: 15px;
+      
+}
+.form-content {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      color: #989898;
+      
+}
+.form-content input {
+      border: 1px #bcbcbd solid;
+      padding: 10px;
+      border-radius: 3px;
+}
+small {
+      color: #ff0000;
+      width: 100%;
+      display: none;
+}
+
+.Email-content {
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+}
+.Email-content label {
+      color: #989898;
+}
+.Email-content input {
+      border: 1px #bcbcbd solid;
+      padding: 10px;
+      border-radius: 3px;
+}
+.query {
+      margin: 20px 0;
+}
+.query .query-content{
+      display: flex;
+      gap: 50px;
+
+}
+.query .query-content div {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+      border: 1px #bcbcbd solid;
+      padding: 8px 7px;
+      border-radius: 3px;
+}
+.query .query-content div p {
+      color: #989898;
+}
+.query label{
+      color: #989898;
+}
+.mess-content {
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+}
+.mess-content label {
+      color: #989898;
+      margin-bottom: 10px;
+}
+.mess-content textarea {
+      border: 1px #bcbcbd solid;
+      resize: none;
+      height: 80px;
+      width: 100%;
+      padding-left: 8px !important;
+      padding: 10px 0;
+}
+.m-space {
+      margin: 20px 10px;
+}
+.m-space div{
+      display: flex;
+      gap: 15px;
+      padding: 5px;
+}
+.m-space div p {
+      color: #989898;
+}
+.submit button {
+      background-color: #197860;
+      color: white;
+      font-weight: bold;
+      padding: 10px 20px;
+      width:  100%;
+      border: none;
+      font-size: 16px;
+      border-radius: 5px;
+}
+.success {
+      display: none;
+      background-color: white;
+      border: 1px solid #989898;
+      width: 400px;
+      text-align: center;
+      padding: 15px 10px;
+      border-radius: 6px;
+      font-size: 16px;
+      position: absolute;
+      right: 0%; 
+      top: 1%;
+}
+
+@media (max-width:700px) {
+      .success {
+            width: 200px;
+            top: 0%;
+      }
+}
