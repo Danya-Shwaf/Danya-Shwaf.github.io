@@ -41,12 +41,12 @@ body {
 }
 @media (max-width: 767px) {
     .special-heading {
-      font-size: 60px;
+    font-size: 60px;
     }
     .special-heading + p {
-      margin-top: -20px;
+    margin-top: -20px;
     }
-  }
+}
   /* Start Components */
 .special-heading {
     color: #ebeced;
@@ -55,23 +55,24 @@ body {
     font-weight: 800;
     letter-spacing: -3px;
     margin: 0;
-  }
-  .special-heading + p {
+}
+.special-heading + p {
     margin: -30px 0 0;
     font-size: 20px;
     text-align: center;
     color: #797979;
-  }
-  @media (max-width: 767px) {
+}
+@media (max-width: 767px) {
     .special-heading {
-      font-size: 60px;
+    font-size: 60px;
     }
     .special-heading + p {
-      margin-top: -20px;
+    margin-top: -20px;
     }
-  }
+}
 /* end component */
 /* start header */
+/*mx-auto px-[15px] sm:w-[750px] md:w-[970px] lg:w-[1170px]*/
 .header{
     padding: 20px;
 }
@@ -178,7 +179,6 @@ body {
 .landing .intro-text p{
     font-size: 19px;
     line-height: 1.8;
-
 }
 /* End landing section */
 /* start features */
@@ -236,7 +236,7 @@ body {
 }
 .services .services-content .srv .text {
     flex: 1;
-  }
+}
 .services .services-content .col .srv .text h3{
     font-weight: 800;
     color: #333;
@@ -317,9 +317,9 @@ body {
 
 }
 .about .about-content .image{
-   position: relative;
-   width: 250px;
-   height: 375px;
+    position: relative;
+    width: 250px;
+    height: 375px;
 }
 .about .about-content .image img{
     max-width: 100%;

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="/css/style.css">
+      <title>Contact Form</title>
+</head>
+<body>
+      <div class="container">
+            <h1>Contact Us</h1>
+            <div class="form">
+                  <form>
+                        <div class="container-field">
+                              <div class="form-content">
+                                    <label>First Name <span class="star">*</span></label>
+                                    <input type="text" placeholder="Enter Your FirstName" class="firstname">
+                                    <small class="required-msg">This field is required</small>
+                              </div>
+                              <div class="form-content">
+                                    <label>Last Name <span class="star">*</span></label>
+                                    <input type="text" placeholder="Enter Your LastName" class="lastname">
+                                    <small class="required-msg">This field is required</small>
+                              </div>
+                        </div>
+                        <div class="Email-content">
+                              <label>Email<span class="star">*</span></label>
+                              <input type="email" placeholder="Enter Your Email" class="email">
+                              <small class="required-msg">This field is required</small>
+                        </div>
+                        <div class="query">
+                              <label>Query Type<span class="star">*</span></label>
+                              <div class="query-content">
+                                    <div>
+                                          <input type="checkbox" class="general-check">
+                                          <p>General Inquiry</p>
+                                    </div>
+                                    <div>
+                                          <input type="checkbox" class="support-check">
+                                          <p>Support Request</p>
+                                    </div>
+                              </div>
+                              <small class="query-mess">Please select a query type</small>
+                        </div> 
+                        <div class="mess-content">
+                              <label>Message<span class="star">*</span></label>
+                              <textarea name="message" placeholder="Your Message" class="mess-Area"></textarea>
+                              <small class="required-msg error-msg-textArea">This field is required</small>
+                        </div>
+                        <div class="m-space">
+                              <div>
+                                    <input type="checkbox" class="checkbox">
+                                    <p>I consent to being contacted by the team</p>
+                              </div>
+                              <small class="check-mess">To submit this form, please consent to being contacted</small>
+                        </div>
+                        <div class="submit">
+                              <button>Submit</button>
+                        </div>
+                  </form>
+                  <div>
+                  </div>
+            </div>
+      </div>
+      <div class="success">
+            Your message has been sent successfully!
+      </div>
+      <script src="/js/main.js"></script>
+</body>
+</html>

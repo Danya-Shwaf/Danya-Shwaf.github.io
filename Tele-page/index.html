@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="h-full">
+        <!-- Header -->
+        <div class="header bg-[#323232] text-center text-[#d1d1d1] max-w-full p-1">
+            <h4>Telegram</h4>
+        </div>
+        <!-- Folders -->
+        <div class="flex h-full">
+            <div class="bg-[#1c1c1c] w-[60px] border-r-2  border-solid border-r-[#3b3b3b] flex flex-col justify-between">
+                <div>
+                    <div class="text-[#8e8e8e] text-center ml-1 my-4">
+                        <i class="fa-solid fa-comments text-2xl"></i>
+                        <h4 class="text-xs">All Chats</h4>
+                    </div>
+                    <div  class=" text-[#8e8e8e] text-center ml-2 my-4">
+                        <i class="fa-solid fa-folder-closed text-2xl"></i>
+                        <h4 class="text-xs">Work</h4>
+                    </div>
+                    <div class=" text-white text-center ml-2 my-4">
+                        <i class="fa-solid fa-folder-closed text-2xl"></i>
+                        <h4 class="text-xs">Personal</h4>
+                    </div>
+                    <div  class=" text-[#8e8e8e] text-center ml-2 my-4">
+                        <i class="fa-solid fa-folder-closed text-2xl"></i>
+                        <h4 class="text-xs">Public</h4>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-center ml-2 m-5">
+                        <i class="fa-solid fa-sliders text-2xl text-[#8e8e8e]"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Chats -->
+            <div class="w-[300px] h-full bg-[#282828] text-center flex flex-col justify-between">
+                <div class="heading border-b-2  border-solid border-b-[#3b3b3b]">
+                    <h4 class="text-white m-2">Chats</h4>
+                    <div class="flex justify-center text-[#666666] bg-[#323232] m-2 rounded-md p-2">
+                        <i class="fa-solid fa-magnifying-glass pt-1 pr-1"></i>
+                        <h4>Search</h4>
+                    </div>
+                </div>
+                <!-- Chats List -->
+                <div class="h-[575px] flex justify-between overflow-scroll">
+                    <div>
+                        <div class="p-3 text-xs">
+                            <img class="image rounded-full min-w-12 min-h-12 bg-[#444444]"/>
+                        </div>
+                        <div class="flex text-xs text-white bg-[#cd4245]">
+                            <img class="image rounded-full min-w-12 min-h-12 bg-[#444444] m-3"/>
+                            <div class="mt-5 flex justify-between w-full">
+                                <div><h4 class="text-start mr-24">danya-shawaf</h4></div>
+                                <div><h4>12:06 Am</h4></div>
+                            </div>
+                        </div>
+                        <div class="p-3 text-xs border-b-2  border-solid border-b-[#3b3b3b]">
+                            <img class="image rounded-full min-w-12 min-h-12 bg-[#444444]"/>
+                        </div>
+                        <div class="p-3 text-xs border-b-2  border-solid border-b-[#3b3b3b]">
+                            <img class="image rounded-full min-w-12 min-h-12 bg-[#444444]"/>
+                        </div>
+                        <div class="p-3 text-xs border-b-2  border-solid border-b-[#3b3b3b]">
+                            <img class="image rounded-full min-w-12 min-h-12 bg-[#444444]"/>
+                        </div>
+                        <div class="p-3 text-xs border-b-2  border-solid border-b-[#3b3b3b]">
+                            <img class="image rounded-full min-w-12 min-h-12 bg-[#444444]"/>
+                        </div>
+                        <div class="p-3 text-xs border-b-2  border-solid border-b-[#3b3b3b]">
+                            <img class="image rounded-full min-w-12 min-h-12 bg-[#444444]"/>
+                        </div>
+                        <div class="p-3 text-xs border-b-2  border-solid border-b-[#3b3b3b]">
+                            <img class="image rounded-full min-w-12 min-h-12 bg-[#444444]"/>
+                        </div>
+                        <div class="p-3 text-xs border-b-2  border-solid border-b-[#3b3b3b]">
+                            <img class="image rounded-full min-w-12 min-h-12 bg-[#444444]"/>
+                        </div>
+                    </div>
+                </div>
+                    <div>
+                        <div class="footer text-[#9e9e9e] ml-2 my-2 flex justify-between">
+                            <i class="fa-solid fa-user mx-5 text-2xl"></i>
+                            <i class="fa-solid fa-phone mx-5 text-2xl"></i>
+                            <i class="fa-solid fa-comments mx-5 text-[#cd4245] text-2xl"></i>
+                            <i class="fa-solid fa-gear  mx-5 text-2xl"></i>
+                        </div>
+                    </div>
+            </div>
+            <!-- Chat Area -->
+            <div>
+                <div class="bg-[#282828] flex justify-between px-5 py-1 text-center border-b-2  border-solid border-b-[#3b3b3b] h-[50px]">
+                    <div class="flex  ">
+                        <img class="image rounded-full min-w-12 min-h-11 bg-[#444444]">
+                        <h4 class="mt-2 ml-2 text-white">danya-shawaf</h4>
+                    </div>
+                    <div class="text-[#cd4245] text-lg mx-5 my-3">
+                        <i class="fa-solid fa-phone mx-5"></i>
+                        <i class="fa-solid fa-magnifying-glass mx-5"></i>
+                        <i class="fa-solid fa-ellipsis mx-5"></i>
+                    </div>
+                </div>
+                <div class="bg-[#1a1a1a] h-[600px] flex-1 w-full overflow-scroll">
+                </div>
+                <div class="flex justify-between text-[#7e7e7e] bg-[#282828] min-h-[50px] border-2  border-solid border-[#3b3b3b]">
+                    <div class="flex text-[#9e9e9e] ml-2 mt-3">
+                        <i class="fa-solid fa-paperclip  mx-5 text-xl"></i>
+                        <h4>write a message...</h4>
+                    </div>
+                    <div class="text-[#9e9e9e] ml-2 mt-3">
+                        <i class="fa-regular fa-face-smile  mx-5  text-xl"></i>
+                        <i class="fa-light fa-microphone-lines  mx-5 text-xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
