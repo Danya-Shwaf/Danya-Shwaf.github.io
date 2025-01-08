@@ -1,0 +1,139 @@
+.contact_us {
+    margin: 3rem auto;
+}
+.contact_us h1{
+    background: linear-gradient(45deg, var(--blue), #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    letter-spacing: 1.8px;
+}
+
+.contact_us .icon-contact {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: var(--subtilte);
+}
+
+.contact_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_us form div {
+    margin-top: 2rem;
+    display: flex;
+    padding: 0.5rem 1rem;
+}
+
+.contact_us form div label{
+    font-size: 1.5rem;
+    color: var(--subtilte);
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.contact_us form div input,
+.contact_us form div textarea {
+    all: unset;
+    background-color: var(--bg);
+    width: 18rem;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    padding: 0.5rem;
+    transition: 0.3s;
+    color: var(--title);
+}
+
+.contact_us form div textarea{
+    min-height: 7rem;
+    resize: vertical;
+    width: 21.5rem;
+}
+
+.contact_us form div input:focus,
+.contact_us form div textarea:focus {
+    border: 1px solid var(--blue);
+}
+
+.contact_us form .submit {
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.contact_us form .submit button{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.75rem 1.9rem;
+    width: 11rem;
+    text-align: center;
+    background-color: var(--blue);
+    opacity: 0.7;
+    border-radius: 8px;
+    border: 1px solid white;
+    transition: 0.3s;
+    
+}
+
+button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+h2 {
+    color: var(--title);
+} 
+
+p{
+    color: var(--subtilte);
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+
+/* Animation */
+
+.animation {
+    width: 400px;
+    height: 200px;
+
+}
+
+/* responsive design*/ 
+@media (max-width: 627px) {
+    .contact_us form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1;
+    }
+    .contact_us form div {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_us form .submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .contact_us form div input,
+    .contact_us form div textarea {
+        width: auto;
+    }
+    .contact_us h1 {
+        font-size: 2.5rem;
+        letter-spacing: 1.6px;
+    }
+}
+@media (max-width: 1200px) {
+    .animation {
+        display: none;
+    }
+    form {
+        margin: auto;
+    }
+    
+}
+

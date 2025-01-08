@@ -1,0 +1,42 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+footer ul {
+    display: flex;
+    gap: 1rem;
+}
+
+footer ul li {
+    list-style: none;
+    color: var(--subtilte);
+    font-weight: 500;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+footer ul li:hover {
+    color: var(--blue);
+}
+
+footer p {
+    color: rgb(113, 113, 122);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* responsive design */ 
+
+@media (max-width: 550px){
+    footer{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+}

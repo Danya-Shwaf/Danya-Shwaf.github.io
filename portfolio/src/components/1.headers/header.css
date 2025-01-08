@@ -1,0 +1,129 @@
+/* ================================ */
+
+/* Header Design */
+header {
+    margin-top: 1.2rem;
+}
+
+header li {
+    list-style: none;
+}
+
+header ul li a {
+    color: var(--title);
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+header ul li a:hover {
+    color: var(--blue);
+}
+
+header nav {
+    background-color: var(--bgheader);
+    padding: 0.77rem 1.6rem;
+    border-radius: 55px;
+    font-size: 0.9rem;
+    opacity: 0.9;
+    box-shadow: 1px 1px 20px var(--boxshadow);
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 0.2rem;
+}
+
+/* icons */
+
+header .mode, header .icon-menu{
+    width: 2.4rem;
+    height: 2.4rem;
+    color: var(--subtilte);
+    background-color: var(--bgheader);
+    border-radius: 100%;
+    border: 1px solid rgba(250, 175, 114, 0.403);
+    text-align: center;
+    transition: 0.2s;
+    margin: 0 1rem;
+    font-size: 1.3rem;
+}
+
+header button.mode:hover {
+    color: var(--title);
+    border: 1px solid rgb(250, 175, 114);
+    
+}
+
+header .icon-x {
+    font-size: 1.3rem;
+    color: var(--subtilte);
+    transition: 0.3s;
+}
+
+header .icon-x:hover {
+    font-size: 1.6rem;
+    color: crimson;
+    rotate: 180deg;
+}
+
+.menu{
+    display: none;
+}
+
+/* menu model */
+header .fixed {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(40, 40, 48,0.91);
+    z-index: 100;
+    backdrop-filter: blur(3px);
+}
+
+header .fixed ul.model {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--secondary);
+    animation: move 0.7s 1;
+} 
+
+header .fixed ul.model li{
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.77rem;
+    padding-top: 0.5rem;
+}
+
+header .fixed ul.model li:last-child {
+    border-bottom: none;
+}
+
+header .fixed ul.model li:first-child {
+    text-align: right;
+    border: none;
+    padding-bottom: 0;
+    padding-top: 0.2rem;
+    margin-bottom: -1rem;
+}
+
+@keyframes move {
+    0% {transform: scale(0);}
+    60% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+
+/* Responsive Design*/  
+
+@media (max-width:700px) {
+    header nav {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+}
